@@ -1,3 +1,3 @@
 # curso_ebac_frontend
 
-Exerício de fixação sobre Github.
+Exerício de fixação sobre HTML.
