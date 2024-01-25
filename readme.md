@@ -1,3 +1,3 @@
-# curso_ebac_frontend
+# Curso Desenvolvedor Full Stack Python
 
-Exerício de fixação sobre HTML.
+### Exercício de fixação sobre o módulo de CSS.
