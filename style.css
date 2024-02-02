@@ -26,7 +26,7 @@ form {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
     align-items: center;
 }
