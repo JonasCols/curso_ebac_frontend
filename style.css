@@ -5,149 +5,74 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body > header{
-    background-color: #2f3640;
-    padding: 16px 0;
-    color: #f5f6fa;
-}
-
-header .container{
-    display: flex;
-}
-
-body > header{
-    background-color: #2f3640;
-    padding: 16px 0;
-    color: #f5f6fa;
-}
-
-header .container{
-    display: flex;
-}
-
-header li {
-    display: inline;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-header li a{
-    color: #f5f6fa;
-    text-decoration: none;
-}
-
-header li a:hover{
-    text-decoration: underline;
-}
-
-header li a{
-    color: #f5f6fa;
-}
-
 .container {
-    width: 1366px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.artigos {
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* align-items: center; */
-}
-
-article img {
-    /* height: 180px; */
+    max-width: 500px;
     width: 100%;
+    margin: 100px auto;
 }
 
-article {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
     text-align: justify;
+    margin-bottom: 30px;
 }
 
-section{
-    padding: 16px 0;
+form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 200px;
+    width: 100%;
+    align-items: center;
 }
 
-section h2{
-    font-size: 32px;
-}
-
-section h2, .artigos article{
-    margin-bottom: 16px;
-}
-
-.artigos article h3{
-    margin-top: 8px;
+input, button {
+    width: 100%;
+    padding: 8px;
     margin-bottom: 8px;
-    font-size: 24px;
 }
 
-.artigos article a{
-    background-color: blue;
+button {
+    background-color: #2e7acc;
+    border: none;
+    text-transform: uppercase;
     color: #fff;
-    padding: 8px 15px;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-}
-
-.artigos article a:hover{
-    text-decoration: underline;
-}
-
-.artigos article p,
-.artigos article a{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#esportes{
-    background-color: rgba(0,255,0,0.1);
-}
-
-#esportes .artigos article a{
-    background-color: rgba(0,255,0,0.8);
-    color: #000;
     font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-#economia{
-    background-color: rgba(200,200,0,0.1);
+button:hover {
+    background-color: #7bb4f2;
 }
 
-#economia .artigos article a{
-    background-color: rgba(200,200,0,0.8);
-    color: #000;
-    font-weight: bold;
+.mensagem-comparacao {
+    padding: 16px;
+    display: none;
 }
 
-#tecnologia{
-    background-color: rgba(0,0,255,0.1);
+.sucesso {
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    text-align: center;
 }
 
-#tecnologia .artigos article a{
-    background-color: rgba(0,0,255,0.7);
-    color: #000;
-    font-weight: bold;
+.erro {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
 }
 
-#turismo{
-    background-color: rgba(255,0,0,0.1);
-}
-
-#turismo .artigos article a{
-    background-color: rgba(255,0,0,0.7);
-    color: #000;
-    font-weight: bold;
+.igualdade {
+    padding: 10px;
+    background-color: rgb(212, 232, 36);
+    color: #000000;
+    text-align: center;
 }
